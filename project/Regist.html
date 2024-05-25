@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Regist.css">
+    
+    <title>استمارة التسجيل</title>
+</head>
+<body>
+    <div class="container">
+         <header>استمارة التسجيل</header>
+
+            <form action="#">
+                <div class="form first">
+                    <div class=" details personal">
+                        <span class="title">المعلومات الشخصية </span>
+
+                        <div class="fields">
+                            <div class="input-field">
+                                <label>اسم الطالب</label>
+                                <input type="text" placeholder="ادخل اسمك" required >
+                            </div>
+
+                            <div class="input-field">
+                                <label>النوع</label>
+                                <input type="radio" name="النوع" ذكر >ذكر
+                                <input type="radio" name="النوع" أنثى >أنثى
+                            </div>
+                            
+                            <div class="input-field">
+                                <label>الجنسية</label>
+                                <input type="text" placeholder="الجنسية" required >
+                            </div>
+                            
+                            <div class="input-field">
+                                <label>المحافظة</label>
+                                <input type="text" placeholder="المحافظة" required >
+                            </div>
+                            
+                            <div class="input-field">
+                                <label>تاريخ الميلاد</label> </label>
+                                <input type="date" placeholder=" تاريخ الميلاد" required >
+                            </div>
+                            
+                            <div class="input-field">
+                                <label>محل الميلاد</label>
+                                <input type="text" placeholder="محل الميلاد" required >
+                            </div>
+                            
+                            <div class="input-field">
+                                <label>المدرسة الثانوية </label>
+                                <input type="text" placeholder="المدرسة" required >
+                            </div>
+                            
+                            <div class="input-field">
+                                <label>سنة التخرج</label>
+                                <input type="date" placeholder="سنة التخرج" required >
+                            </div>
+                            
+                            
+                            <div class="input-field">
+                                <label>المعدل </label>
+                                <input type="number" placeholder="المعدل" required >
+                            </div>
+                            <div class="input-field">
+                                <label>القسم </label>
+                                <input type="radio" name="القسم" علمي >علمي
+                                <input type="radio" name="القسم" أدبي >ادبي
+                            </div>
+                            
+                           
+                            <div class="input-field">
+                                <label> الجامعة المرغوبة</label>
+                                <input type="text" placeholder="الجامعة" required >
+                            </div>
+
+                            <div class="input-field">
+                                <label> التخصص المرغوب </label>
+                                <input type="text" placeholder="التخصص" required >
+                            </div>
+                            <div class="input-field">
+                                <label>رقم الهاتف   </label>
+                                <input type="tel" id="phoneNumber" placeholder="967 7********" required maxlength="9" pattern="^7[0-9]{9}$">
+                             </div>
+                             
+                            <div class="input-field">
+                                    <label> الإيميل  </label>
+                                    <input type="text" placeholder="***@gmail.com" required >
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="ID details">
+                        <span class="title">معلومات الهوية</span>
+
+                        <div class="fields">
+                            <div class="input-field">
+                                <label>نوع الهوية</label>
+                                <input type="text" placeholder="نوع الهوية" required >
+                            </div>
+
+                            <div class="input-field">
+                                <label>رقم الهوية</label>
+                                <input type="number" placeholder="رقم الهوية"required >
+                            </div>
+                            
+                            <div class="input-field">
+                                <label>تاريخ الحصول على الهوية</label>
+                                <input type="date" placeholder="تاريخ الحصول على الهوية" required >
+                            </div>
+
+                            <div class="input-field">
+                                <label>مكان الحصول على الهوية</label>
+                                <input type="text" placeholder="الجهة المصدرة للهوية" required >
+                            </div>
+                        </div>
+                        
+                        <div class="guardian details">
+                            <span class="title">معلومات ولي الأمر</span>
+    
+                            <div class="fields">
+                                <div class="input-field">
+                                    <label>اسم ولي الأمر</label>
+                                    <input type="text" placeholder="اسم ولي الأمر" required >
+                                </div>
+    
+                                <div class="input-field">
+                                    <label>صلة القرابة</label>
+                                    <input type=" text" placeholder="صلة القرابة "required >
+                                </div>
+                                
+                                <div class="input-field">
+                                    <label>رقم الهاتف</label>
+                                    <input type="tel" id="phoneNumber" placeholder="967 7********" required maxlength="9" pattern="^7[0-9]{9}$">
+                                </div>
+    
+                                <div class="input-field">
+                                    <label>المهنة</label>
+                                    <input type="text" placeholder="المهنة" required >
+                                </div>
+
+                                <div class="input-field">
+                                    <label>جهة العمل</label>
+                                    <input type="text" placeholder="جهة العمل" required >
+                                </div>
+
+                                <div class="input-field">
+                                    <label>مكان العمل</label>
+                                    <input type="text" placeholder="مكان العمل" required >
+                                </div>
+                            </div>    
+                       
+                </div>
+                <div>
+                    <br>
+                    <label for="file-upload" class="custom-file-upload">
+                        قم برفع ملف pdf يحمل الوثائق المطلوبة 
+                    </label>
+                    <input id="file-upload" type="file" name="pdf-file" accept=".pdf" />
+                    <br>
+                    <button type="submit">رفع الملف✅</button>
+                </div>
+                <button class="nextbtn">
+                    <span class="btntext">إرسال</span>
+                    <i class="uil uil-navigator"></i>
+                </button>
+            </form>
+    </div>
+   
+</body>
+</html>

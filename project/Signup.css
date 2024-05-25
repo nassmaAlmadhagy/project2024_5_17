@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'font1';
+    src: url(fonts/AD-STOOR.otf) ;
+   
+}
+*{
+    font-family: 'font1';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+   
+}body{
+    background-color: #ffffff;
+direction: rtl;
+}
+.Signup-box{
+    width: 360px;
+    height: 650px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px; 
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    justify-content: center;
+}
+
+
+.login-box{
+    width: 360px;
+    height: 300px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: #fefeff;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+     border-radius: 10px;
+     justify-content: center;
+}
+
+
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+
+}
+h4{
+    text-align: center;
+}
+form{
+    width:300px;
+    margin-left:20px;
+    padding-right: 25px;
+}
+form label{
+    display: flex;
+    margin-top:15px;
+    font-size: 18px;
+    text-align: right;
+    padding: 5px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;
+}
+
+button{
+    width: 300px;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 6px;
+    background-color: #3a6cf4;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+}
+button:hover {
+    background-color: green;
+    cursor: pointer;
+    color: white;
+  }
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.para-2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-top: -10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 20px;
+}
+.para-2 a{
+    color:  #3a6cf4;
+}
+.para-2 a:hover{
+    color: green;
+}

@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'font1';
+    src: url(fonts/AD-STOOR.otf) ;
+   
+}
+*{
+    font-family: 'font1';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+   
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#ffffff;
+    direction: rtl;
+}
+
+.chat-container {
+    width: 400px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.chat-header {
+    background-color: #155596;
+    color: #fff;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    font-size: 1em;
+    border-bottom: 2px solid #34495e;
+    height: 50px;
+    
+}
+
+.chat-box {
+    height: 300px;
+    overflow-y: scroll;
+    padding: 15px;
+}
+
+.input-container {
+    display: flex;
+    padding: 10px;
+    border-top: 2px solid #34495e;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+input:hover {
+background-color: rgb(226, 224, 224);
+}
+
+button {
+    padding: 8px;
+    border: none;
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+button:active{
+transform: translateY(2px);
+}
+
+
+/* Style for different users */
+.user-1 {
+    color: #ffffff;
+    text-align: right;
+    margin: 8px;
+    padding: 12px;
+    background-color: #2980b9;
+    border-radius: 6px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.user-1:hover {
+    background-color: #98c5e4;
+}
+
+.user-2 {
+    color: #ffffff;
+    text-align: left;
+    margin: 10px;
+    padding: 12px;
+    background-color: rgb(90, 104, 119);
+    width: fit-content;
+    border-radius: 6px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.user-2:hover {
+    background-color: #a9aaaa;
+
+}
